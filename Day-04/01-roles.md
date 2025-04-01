@@ -21,7 +21,8 @@ Tasks that are triggered by changes in other tasks, typically used for actions l
 Static files that need to be transferred to managed hosts.
 
 ### Templates
-Jinja2 templates that can be rendered and transferred to managed hosts.
+Jinja2 templates that can be rendered and transferred to managed hosts. It uses Jinja2 templating langauage to enable dynamic content generation.
+Use templates , when you need to customize the content of the file based on variables or condition at runtime.
 
 ### Vars
 Variables that are used within the role.
