@@ -1,3 +1,9 @@
+How to install galaxy role into your machine.
+ansible-galaxy role install bsd.docker  ###  bsd.docker is the role name
+ls -ltr ~/.ansible/roles                ### file will be installed here
+next update this role name in your file  ### file name is enough
+
+
 # Push your Ansible roles to Ansible Galaxy
 
 1. Make sure your role is structured correctly. The basic structure should look like this:
