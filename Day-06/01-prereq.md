@@ -37,9 +37,7 @@ later, worked with below
 ```
  ansible-playbook ec2instancecreation.yaml  --vault-password-file vault.pass
 ```
-```
-ansible-vault create group_vars/all/pass.yml --vault-password-file vault.pass
-```
+
 
 
 
