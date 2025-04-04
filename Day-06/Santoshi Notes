@@ -3,5 +3,11 @@ Through ansible if we want to do Infrasture provisioning or network automation w
 So to talk to those API  collection will be used here which is group of roles and modules of third party excpt of ansbile.buili.in. 
 This modules will be installed in control node and using this module interact wiith API.
 
+For every third party there is collection, To make use of modules collection also we need some pre -request.
+
+ansible-vault - integration -- Here to secure API secure tokens we make use of this. Her ansbile-valt create files where the API tokens, 
+passwork will be stored . Here vault file also should be seured with a passsword.
+
+
 
 
