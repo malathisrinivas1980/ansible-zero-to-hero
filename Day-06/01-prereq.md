@@ -25,7 +25,21 @@ openssl rand -base64 2048 > vault.pass
 ```
 ansible-vault create group_vars/all/pass.yml --vault-password-file vault.pass
 ```
+We need to pass vault.pass while running ansible playbook, because ansible look for token password in ansible-vault file, now that file password enycrption is stored in vault.pass
+```
+root@controlnode-europe ansible]# ansible-playbook ec2instancecreation.yaml 
 
+PLAY [localhost] ***************************************************************
+ERROR! Attempting to decrypt but no vault secrets found
+[root@controlnode-europe ansible]# 
+```
+later, worked with below
+```
+ ansible-playbook ec2instancecreation.yaml  --vault-password-file vault.pass
+```
+```
+ansible-vault create group_vars/all/pass.yml --vault-password-file vault.pass
+```
 
 
 
