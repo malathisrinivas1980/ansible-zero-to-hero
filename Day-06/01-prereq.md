@@ -13,7 +13,7 @@ ansible-galaxy collection install amazon.aws
 ```
 
 ## Setup Vault 
-
+ansible-vault 
 1. Create a password for vault
 
 ```
