@@ -13,6 +13,7 @@ ansible-galaxy collection install amazon.aws
 ```
 
 ## Setup Vault 
+ansible-vault is a command line and used in ansible, it enrypt, decrypt sensetive data like password, API token and yaml files ... It helps keep secrets secure in version control 
 
 1. Create a password for vault
 
