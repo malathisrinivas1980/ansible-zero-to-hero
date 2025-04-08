@@ -1,5 +1,5 @@
 Abhishek explained why collection concept was there and how it will work in this video
-Through ansible if we want to do Infrasture provisioning or network automation will be achived by taking to the api of aws or cisco or fs. 
+Through ansible if we want to do Infrasture provisioning or network automation will be achived by talking to the api of aws or cisco or fs. 
 So to talk to those API  collection will be used here which is group of roles and modules of third party excpt of ansbile.buili.in. 
 This modules will be installed in control node and using this module interact wiith API.
 
